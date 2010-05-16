@@ -8,6 +8,7 @@ Source0:	http://addendum.googlecode.com/files/addendum-%{version}.zip
 # Source0-md5:	cddbd1014e44b14f049fabaa5c7ecc4f
 URL:		http://code.google.com/p/addendum/
 BuildRequires:	rpmbuild(macros) >= 1.300
+BuildRequires:	unzip
 Requires:	php-common >= 4:5.0
 Requires:	sed >= 4.0
 BuildArch:	noarch

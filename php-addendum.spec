@@ -1,7 +1,7 @@
 Summary:	DocBlock/JavaDoc annotations support for PHP 5
 Name:		php-addendum
 Version:	0.3.2
-Release:	1
+Release:	2
 License:	LGPL v2.1
 Group:		Development/Languages/PHP
 Source0:	http://addendum.googlecode.com/files/addendum-%{version}.zip
@@ -9,7 +9,7 @@ Source0:	http://addendum.googlecode.com/files/addendum-%{version}.zip
 URL:		http://code.google.com/p/addendum/
 BuildRequires:	rpmbuild(macros) >= 1.300
 BuildRequires:	unzip
-Requires:	php-common >= 4:5.0
+Requires:	php(core) >= 5.0
 Requires:	sed >= 4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
